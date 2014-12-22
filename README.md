@@ -1,6 +1,8 @@
 Konduit
 =======
 
+[![Build Status](https://travis-ci.org/gordonwritescode/konduit.svg)](https://travis-ci.org/gordonwritescode/konduit)
+
 A streaming middleware stack for inter-process event handling in Node.js.
 
 ## Usage
@@ -41,7 +43,7 @@ instance.
 
 ### Pipeline.close()
 
-Disassembles registered "valves" from the pipeline and returns the `Pipeline` 
+Disassembles registered "valves" from the pipeline and returns the `Pipeline`
 instance.
 
 ## Testing
